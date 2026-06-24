@@ -1,0 +1,52 @@
+# Root monorepo .gitignore
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js
+nextjs-frontend/.next/
+nextjs-frontend/out/
+nextjs-frontend/build/
+nextjs-frontend/.vercel
+nextjs-frontend/*.tsbuildinfo
+nextjs-frontend/next-env.d.ts
+
+# Strapi
+strapi-backend/.tmp/
+strapi-backend/build/
+strapi-backend/dist/
+strapi-backend/.strapi/
+strapi-backend/.strapi-updater.json
+strapi-backend/.strapi-cloud.json
+strapi-backend/license.txt
+strapi-backend/exports/
+
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Misc
+.idea/
+.vscode/settings.json
+*.pem
+coverage/

@@ -1,0 +1,7 @@
+<svg width="120" height="36" viewBox="0 0 120 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="36" height="36" rx="8" fill="#059669"/>
+  <path d="M8 26L18 10L28 26H8Z" fill="white"/>
+  <circle cx="18" cy="22" r="3" fill="#DA251D"/>
+  <text x="44" y="24" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#1C1917">Viet</text>
+  <text x="78" y="24" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#059669">Tour</text>
+</svg>

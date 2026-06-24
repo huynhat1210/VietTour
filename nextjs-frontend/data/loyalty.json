@@ -1,0 +1,21 @@
+{
+  "lenhathuy494@gmail.com": {
+    "points": 638,
+    "tier": "Bạc",
+    "redeemedCoupons": [],
+    "history": [
+      {
+        "date": "2026-06-23T08:27:28.514Z",
+        "action": "Tích điểm thanh toán đơn hàng #42",
+        "change": "+359 xu",
+        "current": 638
+      },
+      {
+        "date": "2026-06-23T07:54:04.433Z",
+        "action": "Tích điểm thanh toán đơn hàng #41",
+        "change": "+279 xu",
+        "current": 279
+      }
+    ]
+  }
+}

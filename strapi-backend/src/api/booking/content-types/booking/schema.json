@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "Booking",
+    "description": "Đặt tour từ website"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "tourDate": {
+      "type": "date",
+      "required": true
+    },
+    "numberOfGuests": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "message": {
+      "type": "text"
+    },
+    "bookingStatus": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "confirmed",
+        "cancelled"
+      ],
+      "default": "pending"
+    },
+    "totalAmount": {
+      "type": "integer",
+      "required": false
+    },
+    "paymentStatus": {
+      "type": "enumeration",
+      "enum": [
+        "unpaid",
+        "paid"
+      ],
+      "default": "unpaid"
+    },
+    "paymentMethod": {
+      "type": "string"
+    },
+    "transactionId": {
+      "type": "string"
+    },
+    "promoCode": {
+      "type": "string"
+    },
+    "tour": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tour.tour",
+      "inversedBy": "bookings"
+    }
+  }
+}
