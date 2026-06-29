@@ -1,8 +1,12 @@
 # VietTour - Hệ thống Đặt tour Du lịch Trực tuyến (Next.js & Strapi v5)
 
+![VietTour - Trang chủ](https://raw.githubusercontent.com/huynhat1210/VietTour/main/nextjs-frontend/public/hero.png)
+
+> **"Khám phá vẻ đẹp Việt Nam"** — Website du lịch & đặt tour trực tuyến hiện đại, đầy đủ tính năng từ tìm kiếm, đặt tour, thanh toán đến quản trị hệ thống.
+
 Dự án **VietTour** là một hệ thống đặt tour du lịch trực tuyến hiện đại, thiết kế tối ưu và đầy đủ tính năng dành cho người dùng và quản trị viên. Hệ thống được phát triển bằng kiến trúc Headless CMS kết hợp giữa Frontend Next.js (App Router) và Backend Strapi v5.
 
-Đây là sản phẩm báo cáo thực tập tốt nghiệp được thiết kế và tối ưu hoàn chỉnh từ giao diện, trải nghiệm người dùng đến hệ thống cơ sở dữ liệu và tự động hóa email.
+Đây là sản phẩm thực tập tốt nghiệp được thiết kế và tối ưu hoàn chỉnh từ giao diện, trải nghiệm người dùng đến hệ thống cơ sở dữ liệu và tự động hóa email.
 
 ---
 
@@ -132,7 +136,3 @@ graph TD
 
 ---
 
-## 📝 Tài liệu Báo cáo & Nghiệm thu
-Xem thêm tài liệu chi tiết hướng dẫn chuẩn bị bảo cáo thực tập, cấu trúc slide bảo vệ và bộ câu hỏi ôn tập tại:
-- [Hướng dẫn Báo cáo Thực tập & Bảo vệ](file:///C:/Users/ADMIN/.gemini/antigravity-ide/brain/f432597f-8655-4512-b319-5b0945eaf9e5/internship_report_guide.md)
-- [Báo cáo nghiệm thu tính năng (Walkthrough)](file:///C:/Users/ADMIN/.gemini/antigravity-ide/brain/f432597f-8655-4512-b319-5b0945eaf9e5/walkthrough.md)
