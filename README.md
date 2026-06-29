@@ -1,6 +1,6 @@
 # VietTour - Hệ thống Đặt tour Du lịch Trực tuyến (Next.js & Strapi v5)
 
-![VietTour - Trang chủ](https://raw.githubusercontent.com/huynhat1210/VietTour/main/nextjs-frontend/public/hero.png)
+![VietTour - Trang chủ](https://raw.githubusercontent.com/huynhat1210/VietTour/main/docs/screenshot-homepage.png)
 
 > **"Khám phá vẻ đẹp Việt Nam"** — Website du lịch & đặt tour trực tuyến hiện đại, đầy đủ tính năng từ tìm kiếm, đặt tour, thanh toán đến quản trị hệ thống.
 
